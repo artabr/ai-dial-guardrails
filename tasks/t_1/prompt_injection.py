@@ -56,7 +56,7 @@ def main():
     )
 
     messages: list[BaseMessage] = [
-        SystemMessage(content=SYSTEM_PROMPT),
+        SystemMessage(content=ENHANCED_SYSTEM_PROMPT),
         HumanMessage(content=PROFILE),
     ]
 
